@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Network Scanner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Network Scanner</h1>
+
+    <div class="input-group mb-3">
+        <input id="target" type="text" class="form-control" placeholder="Target IP (optional)">
+        <button class="btn btn-primary" onclick="manualScan()">Scan Target</button>
+    </div>
+
+    <button class="btn btn-success w-100" onclick="autoScan()">Auto Scan Network</button>
+
+    <div id="output" class="mt-4"></div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
