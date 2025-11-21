@@ -90,7 +90,59 @@ cyberSecurity/
 ├── node_modules/        # NPM kütüphaneleri
 └── README.md            # Bu dosya
 
+------------------------------------
+
+⚙️ Kurulum & Çalıştırma
+
+Bu projeyi kendi bilgisayarında çalıştırmak için hem Python ortamı, hem de Node.js ortamı gereklidir. Aşağıdaki adımlarla projeyi sorunsuz şekilde çalıştırabilirsin.
+
+----------------------------------
+
+📥 1. Gerekli Bağımlılıkları Yükle
+Python Gereksinimleri
+
+Python 3.8+
+
+pip (Python paket yöneticisi)
+
+Node.js Gereksinimleri
+
+Node.js 16+
+
+npm (Node Package Manager)
 
 
+---------------------------------
+📦 2. Depoyu Klonla
+
+git clone https://github.com/DemirCodes/cyberSecurity
+cd cyberSecurity
 
 
+--------------------------------
+🐍 3. Python Modüllerini Kur
+
+Projenin Python kısmı tarama motorunu çalıştırır.
+
+pip install -r requirements.txt
+
+-------------------------------
+🌐 4. Node.js Bağımlılıklarını Kur
+
+npm install
+
+-------------------------------
+▶️ 5. Projeyi Çalıştırma
+Python Tarama Motoru
+python3 scanner.py
+
+Node.js Web Arayüzü
+node app.js
+
+
+Genelde şu adreste çalışır:
+
+http://localhost:3000
+
+
+Eğer port farklıysa terminal zaten gösterir.
