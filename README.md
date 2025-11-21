@@ -47,6 +47,8 @@ static ve templates klasörleri üzerinden çalışan basit arayüz
 
 Gelecekte grafiksel raporlama ve dashboard planlanıyor
 
+
+----------------------------------
 🔧 Yapılacaklar (Roadmap)
 Kısa Vadeli (1 Hafta)
 
