@@ -78,24 +78,21 @@ Modül plug-in sistemi
 
 -------------------------------------
 
+## 📁 Proje Yapısı
 
-📁 Proje Yapısı
-
+```bash
 cyberSecurity/
 │
-├── scanner.py           # Python tarama motoru
-├── app.js               # Node.js backend
-├── package.json         # Bağımlılıklar
-├── static/              # Frontend statik dosyalar
-├── templates/           # HTML sayfalar
-├── node_modules/        # NPM kütüphaneleri
-└── README.md            # Bu dosya
-
-
-
-
-
-
+├── scanner.py       # Python tarama motoru
+├── app.js           # Node.js backend
+├── package.json     # Bağımlılıklar
+│
+├── static/          # Frontend statik dosyalar
+├── templates/       # HTML sayfalar
+├── node_modules/    # NPM kütüphaneleri
+│
+└── README.md        # Bu dosya
+```
 
 
 
