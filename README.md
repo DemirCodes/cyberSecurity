@@ -78,6 +78,7 @@ Modül plug-in sistemi
 
 -------------------------------------
 
+
 📁 Proje Yapısı
 
 cyberSecurity/
@@ -89,6 +90,16 @@ cyberSecurity/
 ├── templates/           # HTML sayfalar
 ├── node_modules/        # NPM kütüphaneleri
 └── README.md            # Bu dosya
+
+
+
+
+
+
+
+
+
+
 
 ------------------------------------
 
